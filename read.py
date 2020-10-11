@@ -25,3 +25,12 @@ for d in data:
 print('一共有', len(new), '筆資料長度小於100')
 print(new[0])
 print(new[1])
+
+good = []
+
+for g in data:
+	if 'good' in g:
+		good.append(g)
+print('一共有', len(good), '筆資料提到good')
+print(good[0])
+print(good[1])
